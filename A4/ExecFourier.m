@@ -11,3 +11,10 @@ function [x,t] = ExecFourier(Ta,f0,Np,Ak,Bk)
 
 end
 
+%Ta = 0.01;
+%f0 = 2;
+%T0 = 1/f0;
+%Np = 3;
+%N = round(Np*T0/Ta);
+
+%t = (0:N-1)*Ta
