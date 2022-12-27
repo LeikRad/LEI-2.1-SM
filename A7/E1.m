@@ -10,7 +10,7 @@ figure(1)
 plot(f,abs(X))
 xlim([-4000 4000])
 
-newX = Filter(X, f, [100 400]);
+newX = Filter(X, f, [100 700]);
 
 figure(3)
 plot(f,abs(newX))
